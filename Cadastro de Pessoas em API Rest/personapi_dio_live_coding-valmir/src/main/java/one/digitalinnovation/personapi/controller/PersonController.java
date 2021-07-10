@@ -14,17 +14,17 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestBody; */
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-// import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-/* import javax.validation.Valid;
-import java.util.List; */
+import javax.validation.Valid;
+import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/people")
-// @AllArgsConstructor(onConstructor = @__(@Autowired))
+@AllArgsConstructor(onConstructor = @__(@Autowired))
 public class PersonController {
 
     /*private PersonRepository personRepository;
@@ -43,7 +43,7 @@ public class PersonController {
                 .build();
     }*/
 
-    /* private PersonService personService;
+    private PersonService personService;
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
@@ -71,12 +71,9 @@ public class PersonController {
     public void deleteById(@PathVariable Long id) throws PersonNotFoundException {
         personService.delete(id); */
     
-        @GetMapping
+        /*@GetMapping
         public String getBook() {
-            return "Teste de Conexão API de Valmir";
+            return "Teste de Conexão API de Valmir";*/
         
-    
-    
-    
     }
 }
