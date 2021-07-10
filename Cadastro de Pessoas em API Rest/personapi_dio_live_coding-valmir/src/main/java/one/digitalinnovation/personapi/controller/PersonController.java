@@ -35,9 +35,12 @@ public class PersonController {
     } 
 
     @PostMapping
-    public String createPerson(@RequestBody Person person) {
-        PersonRepository.save(person);
-        return "API Test!";
+    public MessageResponseDTO createPerson(@RequestBody Person person) {
+        Person savedPerson = PersonRepository.save(person);
+        return MessageResponseDTO
+                .builder()
+                .message("Created person with ID "+ savedPerson.getId())
+                .build();
     } */
 
     private PersonService personService;
