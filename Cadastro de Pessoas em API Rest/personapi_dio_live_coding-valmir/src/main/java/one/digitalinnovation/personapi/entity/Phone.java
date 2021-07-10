@@ -29,6 +29,8 @@ public class Phone {
     @Column(nullable = false)
     private PhoneType type;
 
+//Column é uma Constraint de banco de dados utilizada pelo JPA.
+
     @Column(nullable = false)
     private String number;
 

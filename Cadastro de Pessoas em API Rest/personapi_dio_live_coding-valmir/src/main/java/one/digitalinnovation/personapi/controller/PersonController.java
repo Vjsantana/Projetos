@@ -5,6 +5,7 @@ import one.digitalinnovation.personapi.dto.request.PersonDTO;
 import one.digitalinnovation.personapi.dto.response.MessageResponseDTO;
 import one.digitalinnovation.personapi.entity.Person;
 import one.digitalinnovation.personapi.exception.PersonNotFoundException;
+import one.digitalinnovation.personapi.repository.PersonRepository;
 import one.digitalinnovation.personapi.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -25,6 +26,19 @@ import java.util.List;
 @RequestMapping("/api/v1/people")
 @AllArgsConstructor(onConstructor = @__(@Autowired))
 public class PersonController {
+
+    /*private PersonRepository personRepository;
+
+    @Autowired
+    public PersonContoller(PersonRepository personRepository){
+       this.personRepository = personRepository;
+    } 
+
+    @PostMapping
+    public String createPerson(@RequestBody Person person) {
+        PersonRepository.save(person);
+        return "API Test!";
+    } */
 
     private PersonService personService;
 
