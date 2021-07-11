@@ -19,6 +19,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
+import il.org.spartan.__;
+
 import javax.validation.Valid;
 import java.util.List;
 
@@ -69,7 +71,7 @@ public class PersonController {
     @DeleteMapping("/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void deleteById(@PathVariable Long id) throws PersonNotFoundException {
-        personService.delete(id); */
+        personService.delete(id);
     
         /*@GetMapping
         public String getBook() {
