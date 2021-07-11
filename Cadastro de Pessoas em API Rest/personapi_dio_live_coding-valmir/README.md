@@ -1,6 +1,6 @@
 <h2>Digital Innovation: Expert class - Desenvolvendo um sistema de gerenciamento de pessoas em API REST com Spring Boot</h2>
 
-Projeto desenvolvido por Valmir Santana em Julho de 2021 referente ao gerenciamento de pessoas de uma empresa através de uma API REST, criada com o Spring Boot.
+Projeto desenvolvido por Valmir Santana em Julho de 2021 referente ao gerenciamento de pessoas de uma empresa através de uma API REST, criada com o Spring Boot para o Bootcamp Avanade-DIO.
 
 Durante a sessão, serão desenvolvidos e abordados os seguintes tópicos:
 
@@ -24,15 +24,14 @@ http://localhost:8080/api/v1/people
 ```
 
 
-São necessários os seguintes pré-requisitos para a execução do projeto desenvolvido durante a aula:
+Projeto desenvolvido com base nos seguintes pré-requisitos:
 
 * Java 11 ou versões superiores.
 * Maven 3.6.3 ou versões superiores.
 * Intellj IDEA Community Edition ou sua IDE favorita.
 * Controle de versão GIT instalado na sua máquina.
 * Conta no GitHub para o armazenamento do seu projeto na nuvem.
-* Conta no Heroku para o deploy do projeto na nuvem
-* Muita vontade de aprender e compartilhar conhecimento :)
+
 
 
 [Neste link](https://drive.google.com/file/d/1crVPOVl6ok2HeYjh3fjQuGQn2lDZVHrn/view?usp=sharing), seguem os slides apresentados como o roteiro utilizado para o desenvolvimento do projeto da nossa sessão.
